@@ -7,7 +7,7 @@ class rc {
 		
 		// touristplace_name, city, distance, estmate_amm,trasport_type,whyYouLike;
 		
-		String place = "Ganpati Bappa Temple", city = "Tasgaon, Sangli",distance = "240 km",trasport_type = "train",WhyYouLike = "I feel Like Its Heaven";
+		String place = "Ganpati Bappa Temple", city = "Tasgaon, Sangli",distance = "240 km",trasport_type = "train",WhyYouLike = "I Feel Like Its Heaven";
 		int estimateAmm = 600;
 		
 		
