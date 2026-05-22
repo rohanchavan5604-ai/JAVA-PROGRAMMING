@@ -1,4 +1,4 @@
-package com.ClassWork;
+package com.ClassWorkJM;
 
 import java.util.Scanner;
 
@@ -37,7 +37,7 @@ public class C2HomeW {
 		int total = (java + python + R + php + cpp);
 		System.out.println("Total marks obtained: " + total);
 		
-		float avg = total/5.0F;
+		float avg = total/5.0F;          
 		System.out.println("Average of Your Marks is: "+ avg);
 		
 		
@@ -49,26 +49,26 @@ public class C2HomeW {
 		
 		
 
-//	Scanner sc = new Scanner(System.in);
-//	
-//	int radius;
-//	System.out.println("Enter radius of circle: ");
-//	radius = sc.nextInt();
-//	
-//	int length;
-//	System.out.println("Enter length of rectangle: ");
-//	length = sc.nextInt();
-//	
-//	int breadth;
-//	System.out.println("Enter breadth of rectangle: ");
-//	breadth = sc.nextInt();
-//	
-//	double AreaOfCircle = 3.14 * radius * radius ;
-//	double AreaOfRectan = length * breadth;
-//	
-//	System.out.println("Area Of circle is: "+ AreaOfCircle);
-//	System.out.println("Area Of rectangle is: "+ AreaOfRectan);
-
+     //	Scanner sc = new Scanner(System.in);
+     //	
+     //	int radius;
+     //	System.out.println("Enter radius of circle: ");
+     //	radius = sc.nextInt();
+     //	
+     //	int length;
+     //	System.out.println("Enter length of rectangle: ");
+     //	length = sc.nextInt();
+     //	
+     //	int breadth;
+     //	System.out.println("Enter breadth of rectangle: ");
+     //	breadth = sc.nextInt();
+     //	
+     //	double AreaOfCircle = 3.14 * radius * radius ;
+     //	double AreaOfRectan = length * breadth;
+     //	
+     //	System.out.println("Area Of circle is: "+ AreaOfCircle);
+     //	System.out.println("Area Of rectangle is: "+ AreaOfRectan);
+     
 		
 		
 		/*

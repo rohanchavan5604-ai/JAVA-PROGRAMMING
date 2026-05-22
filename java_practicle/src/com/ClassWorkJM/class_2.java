@@ -1,4 +1,4 @@
-package com.ClassWork;
+package com.ClassWorkJM;
 
 import java.util.Scanner;
 

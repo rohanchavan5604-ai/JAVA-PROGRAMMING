@@ -1,4 +1,4 @@
-package com.ClassWork;
+package com.ClassWorkJM;
 
 class rc {
 	public static void main(String[] args) {
