@@ -18,7 +18,7 @@ public class FirstProject {
 			System.out.println("1) Check Balance");
 			System.out.println("2) Withdraw Balance");
 			System.out.println("3) Deposit Balance");
-			
+
 			int choice = sc.nextInt();
 			if (choice == 1) {
 				System.out.println("Your Available Balance is: " + balance);
@@ -27,25 +27,25 @@ public class FirstProject {
 				System.out.println("Enter Amount To Withdraw : ");
 				double withdraw = sc.nextDouble();
 
-				if(withdraw > 0 && (balance - withdraw) >= 1000) {
+				if (withdraw > 0 && (balance - withdraw) >= 1000) {
 					balance = balance - withdraw;
 					System.out.println("After Withdraw Available Balance is:" + balance);
-				}else{
-					System.out.println("Minimum balance Should be : "+ MinBal);
+				} else {
+					System.out.println("Minimum balance Should be : " + MinBal);
 				}
-			}else if(choice == 3) {
+			} else if (choice == 3) {
 				System.out.println("Enter Your Deposit Ammount : ");
 				double deposit = sc.nextDouble();
 				if (deposit > 0) {
 					balance = balance + deposit;
 					System.out.println("After Deposite Balance Is: " + balance);
-				}else{
+				} else {
 					System.out.println("Enter a Valid Amount");
 				}
-			}else{
+			} else {
 				System.out.println("Enter a Valid Choice");
 			}
-		}else{
+		} else {
 			System.out.println("Invalid PIN");
 		}
 
