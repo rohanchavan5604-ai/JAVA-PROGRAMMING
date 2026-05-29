@@ -2,11 +2,13 @@ package com.ClassWorkJM;
 
 import java.util.Scanner;
 
-public class May28{
+public class Choice_statement{
 
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
+		
+//		ATM PROJECT USING SWITCH STATEMENT
 		
 		double balance = 1000.00;
 		
@@ -36,6 +38,8 @@ public class May28{
 		}
 		
 		
+		
+//		CALCULATER USING SWITCH CASE
 		
 		
 //		System.out.println("Enter First Number: ");
