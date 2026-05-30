@@ -3,7 +3,7 @@ package com.ClassWorkJM;
 public class May_29 {
 
 	public static void main(String[] args) {
-
+ 		
 		int num1 = 166;
 		int num2 = 195;
 		int max = 0;
@@ -20,5 +20,7 @@ public class May_29 {
 			break;
 		}
 		System.out.println("Max Number Is: " + max);
+
+	
 	}
 }
