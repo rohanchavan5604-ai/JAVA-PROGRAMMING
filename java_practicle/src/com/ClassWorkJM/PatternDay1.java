@@ -7,27 +7,107 @@ public class PatternDay1 {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
-
-//		System.out.println("Enter Number For Printing Pattern: ");
-//		int n = sc.nextInt();
-	
-	
-		  for(int i =1; i<=5;i++){
-			    for(int j =5; j>=i;j--){
-			       
-			        System.out.print("* ");
-			    }
-			 
-			    System.out.println();
-			}
-			    for(int i =2; i<=5;i++){
-			    for(int j =1; j<=i;j++){
-			       
-			        System.out.print("* ");
-			    }
-			 
-			    System.out.println();
-			}
+		
+ 
+	 for(int i =1; i<=5; i++) {
+		 for(int j=5; j>=i;j--) {
+			 System.out.print(" * ");
+		 }
+		 System.out.println();
+	 }
+	 for(int i=2; i<=5;i++) {
+		 for(int j=1; j<=i; j++) {
+			 System.out.print(" * ");
+		 }
+		 System.out.println();
+	 }
+		
+		
+		
+		
+//		for(int i =1; i<=5;i++){
+//		    for(int j =1; j<=i;j++){
+//		       
+//		        System.out.print(" * ");
+//		    }
+//		 
+//		    System.out.println();
+//		}
+//
+//		  for(int i =1; i<=5;i++){
+//		    for(int j =4; j>=i;j--){
+//		       
+//		        System.out.print(" * ");
+//		    }
+//		 
+//		    System.out.println();
+//		}
+		
+		
+		
+		
+//		for(int i =1; i<=9;i++){
+//		    for(int j =1; j<=i;j++){
+//		       
+//		        System.out.print("* ");
+//		    }
+//		 
+//		    System.out.println();
+//		}
+//
+//		  for(int i =1; i<=8;i++){
+//			  if(i>=1 && i<=5) {
+//				  for(int k = 1; k<=i;k++) {
+//					     
+//				        System.out.print("* ");
+//					  
+//				  }
+//				  
+//			  }
+//		  if(i>=6 && i<=9) {
+//			  for(int k = 1; k<=10-i;k++) {
+//				  System.out.print("* ");
+//			  }
+//		  }
+//		  System.out.println();
+//		    }
+		 
+		  
+		
+		
+ 
+//		for (int i =1; i<=4;i++) {  
+//			for(int p = 1; p<=i;p++) {
+//				System.out.print("  ");
+//			}
+//			for(int j = 4; j>=i;j--) {
+//				System.out.print("* ");
+//			}
+//			System.out.println();
+//		}
+		
+		
+		
+		
+		
+//		  for(int i =1; i<=5;i++){
+//			    for(int j =5; j>=i;j--){
+//			       
+//			        System.out.print("* ");
+//			    }
+//			 
+//			    System.out.println();
+//			}
+//			    for(int i =2; i<=5;i++){
+//			    for(int j =1; j<=i;j++){
+//			       
+//			        System.out.print("* ");
+//			    }
+//			 
+//			    System.out.println();
+//			}
+			    
+			    
 		
 	
 //		for(int i =1; i<=5;i++) {
@@ -216,5 +296,4 @@ public class PatternDay1 {
 //		}
 
 	}
-
 }
