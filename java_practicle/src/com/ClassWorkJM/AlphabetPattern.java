@@ -1,19 +1,146 @@
 package com.ClassWorkJM;
 
+import java.util.Scanner;
+
 public class AlphabetPattern {
 	
 	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+//		System.out.println("Enter your Name: ");
+//		String name = sc.next();
+		
+//		for(int i=0; i<name.length(); i++) {
+//			for(int j=0; j<=i;j++) {
+//				System.out.print(name.charAt(j));
+//			}
+//			System.out.println();
+//		}
+		
+		
+		
+//		for(int i=1; i<= name.length(); i++) {
+//			System.out.println(name.substring(0, i));
+//		}
+		
+		
+		
+		
+		
+// for(int i=1; i<=5; i++) {
+//	 for(int l=1; l<=i;l++) {
+//		 System.out.print(l);
+//	 }
+//	 for(int r =i-1; r>=1;r--) {
+//		System.out.print(r); 
+//	 }
+//	 System.out.println();
+// }
 	
-		for(char i='A'; i<='E';i++) {
-			for(char j='E'; j>=i;j--) {
-				
-				System.out.print(" ");
-			}
-			for(char k='A'; k<=i;k++) {
-				System.out.print(k+" ");
-			}
-			System.out.println();
-		}
+		
+		
+//		 for(char i='A'; i<='E'; i++) {
+//			 for(char p ='D'; p>=i;p--) {
+//				 System.out.print(" ");
+//			 }
+//			 for(char l='A'; l<=i;l++) {
+//				 System.out.print(l);
+//			 }
+//			 for(char r =(char) (i-1); r>='A';r--) {
+//				System.out.print(r); 
+//			 }
+//			 System.out.println();
+//		 }
+//		
+		
+		
+		
+//		for (int i = 0; i < 6; i++) { 
+//
+//			char ch = (char) ('A' + i);
+//
+//			for (int j = 0; j <= i; j++) {
+//				System.out.print(ch + " ");
+//				ch += 5;
+//			}
+//
+//			System.out.println();
+//		}
+		
+		
+		
+		
+//		char ch;
+//		for(int i=1; i<=6;i++) {
+//			ch = (char)('A'+ i-1);
+//			for(int j=0; j<i;j++) {
+//				System.out.println(ch--);
+//			}
+//			System.out.println();
+//		}
+		
+		
+		
+		
+		 
+//        for (int i = 0; i < 6; i++) {
+//
+//            char ch = (char) ('A' + i);
+//
+//            for (int j = 0; j <= i; j++) {
+//                System.out.print(ch + " ");
+//                ch += 5;
+//            }
+//
+//            System.out.println();
+//        }
+		
+		
+ 	
+		
+		
+//		pelindrome pattern
+		
+//		for(char i='A'; i<='E';i++) {
+//			for(char j='A'; j<=i; j++) {
+//				System.out.print(j);
+//			}
+//			
+//			for(char j = (char)(i-1);j>='A'; j--) {
+//				System.out.print(j);
+//			}
+//			System.out.println();
+//		}
+		
+		
+		
+		
+		
+		
+//		for(char i='A'; i<='E';i++) {
+//			for(char j='E'; j>=i;j--) {
+//				
+//				System.out.print(j);
+//		 
+//			}
+//			System.out.println();
+//		}
+		
+		
+		
+//		pyramid of Char
+	
+//		for(char i='A'; i<='E';i++) {
+//			for(char j='E'; j>=i;j--) {
+//				
+//				System.out.print(" ");
+//			}
+//			for(char k='A'; k<=i;k++) {
+//				System.out.print(k+" ");
+//			}
+//			System.out.println();
+//		}
 		
 		
 		
