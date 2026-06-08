@@ -8,21 +8,21 @@ public class AlphabetPattern {
 		
 		Scanner sc = new Scanner(System.in);
 		
-//		System.out.println("Enter your Name: ");
-//		String name = sc.next();
+		System.out.println("Enter your Name : ");
+		String name = sc.next();
 		
-//		for(int i=0; i<name.length(); i++) {
-//			for(int j=0; j<=i;j++) {
-//				System.out.print(name.charAt(j));
-//			}
-//			System.out.println();
-//		}
+		for(int i=0; i<name.length(); i++) {
+			for(int j=0; j<=i;j++) {
+				System.out.print(name.charAt(j));
+			}
+			System.out.println();
+		}
 		
 		
 		
-//		for(int i=1; i<= name.length(); i++) {
-//			System.out.println(name.substring(0, i));
-//		}
+		for(int i=1; i<= name.length(); i++) {
+			System.out.println(name.substring(0, i));
+		}
 		
 		
 		
