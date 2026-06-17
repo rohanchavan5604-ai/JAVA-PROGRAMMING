@@ -65,6 +65,6 @@ public class BankProgram {
 		System.out.println("\nCustomer 2 Details");
 		b2.displayAccountDetails();
 		b2.showBalance();
-		
+
 	}
 }
