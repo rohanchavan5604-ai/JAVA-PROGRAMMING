@@ -9,7 +9,7 @@ class t2 extends t1 {
 	int a = 200;
 
 	void test() {
-		System.out.println(" Child "+a + " Parent " + super.a);
+		System.out.println("Child "+a + " Parent " + super.a);
 
 	}
 
