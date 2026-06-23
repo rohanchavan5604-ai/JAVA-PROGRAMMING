@@ -32,9 +32,7 @@ public class Loop_30_May {
 //			System.out.print(" "+i);
 //		}
 		
-		
-		
-		
+ 
 		
 //		FIND THE PRIME NUMBER UP TO 1 - 100
 		
