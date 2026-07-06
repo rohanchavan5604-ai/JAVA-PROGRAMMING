@@ -23,7 +23,7 @@ public class Arr9 {
 			}
 		}
 
-  System.out.println("Assigning arr[i] In b[i]");
+		System.out.println("Assigning arr[i] In b[i]");
 
 		int b[] = new int[c];
 		int index = 0;
