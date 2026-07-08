@@ -15,7 +15,7 @@ public class arr5 {
 			int add = 0;
 			for (int s = p; s < p + r; s++) {
 
-				System.out.print(a[s] + " ");
+				System.out.print(a[s] +" ");
 				add = add + a[s];
 			}
 			System.out.println("  Sum: " + add);
