@@ -16,19 +16,19 @@ public class ArrayEqualityCheck {
 				if (arr[i] != a[i]) {
 
 					c++;
-					System.out.println("Not Equals");
+					System.out.println("Array is not equal");
 					break;
 
 				}
 			}
 			if (c == 0) {
 
-				System.out.println("Equal ");
+				System.out.println("Array is Equal");
 
 			}
 
 		} else {
-			System.out.println("Length not same");
+			System.out.println("Length of Array is not same");
 		}
 
 	}
