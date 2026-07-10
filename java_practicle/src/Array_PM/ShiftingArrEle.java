@@ -1,6 +1,6 @@
 package Array_PM;
 
-public class july_7 {
+public class ShiftingArrEle {
 
 	public static void main(String[] args) {
 
