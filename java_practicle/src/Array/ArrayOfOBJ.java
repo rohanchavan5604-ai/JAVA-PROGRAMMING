@@ -28,9 +28,8 @@ public class ArrayOfOBJ {
 
 	public static void main(String[] args) {
 
-		customer c[] = {new customer(1, "Rohan", 10000.00F),
-						new customer(2, "Tushar", 150.00F),
-						new customer(3, "Onkar", 50.00F) };
+		customer c[] = { new customer(1, "Rohan", 10000.00F), new customer(2, "Tushar", 150.00F),
+				new customer(3, "Onkar", 50.00F) };
 
 		for (customer x : c) {
 
