@@ -1,0 +1,31 @@
+package String_PM;
+
+public class Pangram {
+
+	public static void main(String[] args) {
+
+		String s = "qwertyuiopasdfghjklzxcvbnm";
+
+		int c = 0;
+
+		for (char ch = 'a'; ch <= 'z'; ch++) {
+
+			for (int i = 0; i < s.length(); i++) {
+
+				if (ch == s.charAt(i)) {
+
+					c++;
+
+				}
+
+			}
+		}
+		if (c == 26) {
+			System.out.println("Pangram");
+		} else {
+			System.out.println("not pangram");
+		}
+
+	}
+
+}
