@@ -4,7 +4,7 @@ public class PangramTask {
 
 	public static void main(String[] args) {
 
-		String s = "qwertyuiopasdfghjklzxcvbnm";
+		String s = "qwertyudbbfjjiopasdfgabbfhhkrjdrchjehjklzxcvbnm";
 
 		int c = 0;
 
@@ -15,6 +15,8 @@ public class PangramTask {
 				if (ch == s.charAt(i)) {
 
 					c++;
+					break;
+					
 
 				}
 
