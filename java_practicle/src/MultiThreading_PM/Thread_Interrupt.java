@@ -1,4 +1,4 @@
-package Exeption_Handling_JM;
+package MultiThreading_PM;
 
 class t3 extends Thread {
 
@@ -19,10 +19,10 @@ class t3 extends Thread {
 
 }
 
-public class ThreadInterrupt {
+public class Thread_Interrupt {
 
 	public static void main(String[] args) {
-
+		
 		t3 t = new t3();
 		t.start();
 
@@ -32,7 +32,7 @@ public class ThreadInterrupt {
 
 		t3 t2 = new t3();
 		t2.start();
-
+		
 	}
-
+	
 }
