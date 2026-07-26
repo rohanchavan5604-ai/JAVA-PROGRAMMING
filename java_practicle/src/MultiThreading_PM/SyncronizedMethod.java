@@ -1,12 +1,13 @@
 package MultiThreading_PM;
 
-class test111 {
+class test111 {  
 
-	public void display() {
+	public synchronized void display() {  //This is Method synchronization
 
 		System.out.println("Before");
 
-		synchronized(this) {
+//		synchronized(this)  This is block synchronized 
+		{
 			for (int i = 1; i <= 3; i++) {
 
 				System.out.println(Thread.currentThread().getName()+" "+i);
