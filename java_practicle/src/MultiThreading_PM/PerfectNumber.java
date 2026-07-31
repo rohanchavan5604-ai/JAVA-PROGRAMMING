@@ -6,22 +6,26 @@ public class PerfectNumber {
 
 		int a[] = { 1, 6, 12, 28, 544 };
 
-		for (int j = 0; j < a.length; j++) {
+		for (int i = 0; i < a.length; i++) {
 
 			int sum = 0;
-			for (int i = 1; i < a[j]; i++) {
 
-				if (a[j] % i == 0) {
+			for (int j = 1; j < a[i]; j++) {
 
-					sum = sum + i;
+				if (a[i] % j == 0) {
+
+					sum = sum + j;
 
 				}
 
 			}
 
-			if (sum == a[j]) {
-				System.out.println("Perfect Numbers = " + a[j]);
+			if (sum == a[i]) {
+
+				System.out.println("Perfect Number = " + a[i]);
+
 			}
+
 		}
 
 	}
