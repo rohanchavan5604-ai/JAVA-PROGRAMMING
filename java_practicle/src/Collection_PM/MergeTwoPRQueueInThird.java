@@ -2,7 +2,7 @@ package Collection_PM;
 
 import java.util.PriorityQueue;
 
-public class MurgeTwoPRQueueInThird {
+public class MergeTwoPRQueueInThird {
 
 	public static void main(String[] args) {
 
