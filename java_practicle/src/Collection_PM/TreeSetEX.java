@@ -13,10 +13,11 @@ public class TreeSetEX {
 //		?
 //		?
 
-		TreeSet t = new TreeSet();
+		TreeSet<Integer> t = new TreeSet<Integer>();
 
 		t.add(2);
 		t.add(8);
+//		t.add(null);  // Null Pointer Exception
 		t.add(1);
 		t.add(5);
 
